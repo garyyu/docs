@@ -27,7 +27,8 @@ Building locally to deploy on another platform (VPS, embedded, ...)? Then read a
 # Using
 
 ## First time preparations
-1. First time? Create some folders and setup PATH:
+
+Create some folders and setup PATH:
 
 ````bash
 cd grin # if you're not already here. This is the folder that `git clone` created for you.
