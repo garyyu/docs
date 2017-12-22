@@ -1,1 +1,0 @@
-* [grinMW](https://twitter.com/grinmw) Twitter bot that scrapes headlines, mailing list, and reddit posts related to MW.
