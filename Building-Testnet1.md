@@ -7,14 +7,14 @@
 
 # Build steps
 
-# Preparation
+## Preparation
 ```sh
 git clone https://github.com/mimblewimble/grin.git
 cd grin
 git checkout milestone/testnet1
 ```
 
-# Building
+## Building
  1. Run `cargo build`
  2. Seeing red messages and errors? See [troubleshooting Testnet1](https://github.com/mimblewimble/docs/wiki/Testnet1-troubleshooting)
  3. When build completes, you get `target/debug/grin` to run grin commands
@@ -23,6 +23,7 @@ Building locally to deploy on another platform (VPS, embedded, ...)? Then read a
 
 # Using
 
+## First time preparations
 1. First time? Create some folders and setup PATH:
 
 ````bash
@@ -36,7 +37,7 @@ cd ..
 grin help # Shows all grin subcommands
 ````
 
-# Configuration
+## Configuration
 
 Configure grin using `grin.toml` and on the command line.
 
@@ -52,7 +53,7 @@ If no configuration file is found, command line switches must be given to grin i
 
 At present, the relevant modes of operation are 'server' and 'wallet'. When running in server mode, any command line switches provided will override the values found in the configuration file. Running in wallet mode does not currently use any values from the configuration file other than logging output parameters.
 
-# Mining
+## Mining
 1. Make sure you're synched up to the tip of the chain (Testnet1 - later on this will be more automatic...) by running `grin server run` and wait 1-2 hours or so until you reach the tip of chain and see the debug message "Disabling sync"
 2. Look in the `target/debug/plugins` you find any mining plugings that have been built. Current fastest plugin is called lean or mean or so, and runs best on modern (2015+) Intel CPUs. Update grin.toml to use your preferred mining plugin, maybe by commenting _compat plugin and uncommenting the other faster plugin.
 3. Run `grin wallet listen &` after again ensuring 1. above. The listen is needed so newly mined coinbase coins can be safely stored.
