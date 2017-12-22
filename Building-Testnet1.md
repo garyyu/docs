@@ -3,7 +3,7 @@
  - Linux or Mac OS
    - Windows? Run on Linux in a VM or [help add windows compatibility](https://github.com/mimblewimble/docs/wiki/Hacking-and-contributing)
  - `cmake --version` # 3.2 or newer
-   - Debian stable? You might have to compile from source.
+   - Debian stable? You might have to compile cmake from source.
  - `rustc --version` # 1.21 or newer
    - NOTE: Install via [Rustup](https://www.rustup.rs/) as `curl https://sh.rustup.rs -sSf | sh; source $HOME/.cargo/env` and **avoid your package manager's rust** for now, trust us.
  - 2 GB RAM to compile
