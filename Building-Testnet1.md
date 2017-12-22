@@ -8,6 +8,9 @@
 # Build steps
 
 ## Preparation
+
+Run this in a command line
+
 ```sh
 git clone https://github.com/mimblewimble/grin.git
 cd grin
