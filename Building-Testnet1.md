@@ -63,3 +63,4 @@ At present, the relevant modes of operation are 'server' and 'wallet'. When runn
 3. Run `grin wallet listen &` after again ensuring 1. above. The listen is needed so newly mined coinbase coins can be safely stored.
 4. Run `grin server -m run`
 
+Be warned - you'll be mining test coins (no value) and there are bugs all over the place. Help us squish them! First see  [troubleshooting Testnet1](https://github.com/mimblewimble/docs/wiki/Testnet1-troubleshooting) for the easy ones, and then come over to the [Grin Lobby](https://gitter.im/grin_community/Lobby) and talk about your bug collection!
