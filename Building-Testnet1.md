@@ -31,7 +31,7 @@ Building locally to deploy on another platform (VPS, embedded, ...)? Then read a
 
 ````bash
 cd grin # if you're not already here. This is the folder that `git clone` created for you.
-export PATH=`pwd`/target/debug:$PATH # recommended. Redo for every new command line, or: cargo install
+export PATH=`pwd`/target/debug:$PATH # Redo in every new window, or: cargo install
 cd ..
 mkdir wallet
 cd wallet
