@@ -1,6 +1,7 @@
 # Requirements
 
- - Linux or Mac OS. (Windows user? Get a Linux in a VM for now, or [help us add windows compatibility](https://github.com/mimblewimble/docs/wiki/Hacking-and-contributing)!)
+ - Linux or Mac OS
+   - Windows? Run on Linux in a VM or [help add windows compatibility](https://github.com/mimblewimble/docs/wiki/Hacking-and-contributing)!
  - `cmake --version` # 3.2 or newer
  - `rustc --version` # 1.21 or newer. Install via [Rustup](https://www.rustup.rs/) as `curl https://sh.rustup.rs -sSf | sh; source $HOME/.cargo/env` and avoid your package manager for rust, trust us.
  - 2 GB RAM to compile (but you can compile locally, then deploy on a VPS)
