@@ -12,11 +12,18 @@ And why not try running your own little grin network? See the [local net documen
 ## Preparations
 
 `````
-cargo install cargo-cov
 cargo install cargo-check
+cargo install cargo-cov
+cargo install cargo-tarpaulin
 ````
 
 ## Run
 Run a quick syntax check with `cargo check`
-Run a test coverage analysis with `cargo cov test`
 Run the full test suite with `cargo test --all`
+Run a test coverage analysis with `cargo cov test`
+
+### Troubleshooting
+ * Q: `cargo cov test` gives error:
+```error: Native profiler library not found
+caused by: no default profiler library for this target, please supply the --profiler option```
+ A: Install clang with `sudo apt-get install clang` or similar.
