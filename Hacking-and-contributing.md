@@ -11,7 +11,7 @@ And why not try running your own little grin network? See the [local net documen
 
 ## Preparations
 
-`````
+````
 cargo install cargo-check
 cargo install cargo-cov
 cargo install cargo-tarpaulin
