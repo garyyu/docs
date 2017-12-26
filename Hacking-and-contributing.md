@@ -25,3 +25,7 @@ Run a test coverage analysis with `cargo cov test`
 ### Troubleshooting
  * Q: `cargo cov test` gives error `error: Native profiler library not found`
  A: Install clang with `sudo apt-get install clang` or similar.
+ * Q: `cargo cov test` fails with some rocksdb symbol not found
+ A: Install rocksdb with `sudo apt-get install rocksdb` or similar.
+ * Q: `cargo cov test` fails, something about not finding nix/ptrace (something? or maybe not)
+ A: Maybe try to `rustup update`. Maybe also try rust nightly, with something like `rustup default nightly-x86_64-apple-darwin` and see if that helps; and probably good to afterwards change back to stable, with something like `rustup default stable-x86_64-apple-darwin`
