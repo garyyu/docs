@@ -25,3 +25,9 @@ compile cmake or get it from non-detault repositories.
 
 ## Build error: `failed to select a version for 'serde_json'`
 Run `cargo update` to fix this
+
+## Build error: Alpine Linux build error, something `rocksdb` and upon digging deeper; rocksdb/env/env_posix.cc:13:22: fatal error: linux/fs.h: No such file or directory
+On Alpine Linux, grin build requires kernel headers. After `apk add linux-headers` grin builds ok.
+
+## Build error: can't compile crate `bitflags``
+Chech `rustc --version` and note that bitflags requires rust 1.21 or newer. Install via `rustup` and recommended you also remove any rust/cargo installed via your package manager.
