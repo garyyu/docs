@@ -32,5 +32,5 @@ On Alpine Linux, grin build requires kernel headers. After `apk add linux-header
 ## Build error: can't compile crate `bitflags``
 Chech `rustc --version` and note that bitflags requires rust 1.21 or newer. Install via `rustup` and recommended you also remove any rust/cargo installed via your package manager.
 
-## Build error: rocksdb 0.8+ won't build
-You need more llvm and clang. On F25 just clang-devel; on apt-get you'll need llvm-dev libclang-dev clang. TODO: Any other linuxes tested? MacOS unknown.
+## Build error: librocksdb-sys 5.7.1+ won't build
+You need more llvm and clang. On Fedora 24/25, `dnf install llvm-devel clang-devel`; on apt-get you'll need llvm-dev libclang-dev clang. TODO: Any other linuxes tested? MacOS unknown.
