@@ -1,5 +1,5 @@
 # Overview
-This is a quick tutorial on how to have an automated nightly build of grin and run the server. You can follow the same principles for wallet too. This was done on an Ubuntu 16.04 host.
+This is a quick tutorial on how to have an automated nightly build of grin and run the server. It pulls the latest changes from github, compiles and restarts, as well as runs grin as a service. You can follow the same principles for wallet too. This was done on an Ubuntu 16.04 host.
 # Steps
 ## Build and run grin manually once
 Follow the instructions in [this tutorial](https://github.com/mimblewimble/grin/blob/master/doc/build.md) and ensure that you have the server running properly. You should end up with three directories:
