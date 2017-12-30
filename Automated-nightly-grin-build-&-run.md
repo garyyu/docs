@@ -81,7 +81,7 @@ This will open a `nano` instance and let you edit the cron file of the current u
 ```
 The above puts either success or fail debug output into a file in your main directory. Alternatively, if mail is enabled on your host, you can also have the results emailed to you:
 ```
-0 18 * * * /home/ubuntu/mimblewimble/nightly-build.sh 2>&1 | mail -s "grin build FAIL" you@yourdomain.com
+0 2 * * * /home/ubuntu/mimblewimble/nightly-build.sh 2>&1 | mail -s "grin build FAIL" you@yourdomain.com
 ```
 This runs the script from the previous step at 2 am UTC. You might want to adjust this time so that we don't have everyone rebuilding at the same time.
 ## Check that it worked
