@@ -64,9 +64,10 @@ Copy this text into a `nightly-build.sh` in the same directory as the above:
 #!/bin/sh
 
 sudo systemctl stop grin-testnet
-cd grin
-git pull
-cargo build
+cd /home/ubuntu/mimblewimble/grin
+/usr/bin/git pull
+/home/ubuntu/.cargo/bin/cargo build
+sudo systemctl restart grin-testnet
 sudo systemctl start grin-testnet
 ```
 If you want to be pedantic and build from scratch every time, you can also insert `cargo clean` before `cargo build`.
