@@ -56,7 +56,7 @@ ubuntu   27481  0.0  0.0  12944  1028 pts/0    S+   18:11   0:00 grep --color=au
 ```
 As a last step, enable this service to run at the next startup:
 ```
-sudo systemctl enable grin-testnet
+sudo systemctl enable grin-testnet.service
 ```
 ## Create the build script
 Copy this text into a `nightly-build.sh` in the same directory as the above:
