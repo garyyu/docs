@@ -38,17 +38,19 @@ sumtrees/utxo Summation, Merklish tree of all valid UTXOs
 # Grin dev discussion about #215 (the lock_height switch commit stuff)
 
 To land mimblewimble/grin#215, the plan is:
- • Extend wallet (for now) to store a Merkle proof.
+
+ * Extend wallet (for now) to store a Merkle proof.
    (for starters it's simpler to store these in the wallet, before we endpoints in place. And recreating them from scratch could be made part of `wallet recover`)
- • Remove both get_output_by_commit and get_block_header_by_output_commit (NOT remove sumtrees/utxo :grinning:)
- • The only commitment or output index is what the sumtrees offer. Any additional information needs to be provided to spend.
- • (No new index needed to map commitment|block_hash -> pmmr pos. We can lookup the block with that hash)
- • Only full (archival) nodes can surely know if a coinbase output is locked or not (1000 confirms)
- • Wallet recovery still works.
- • Miners must remember which output they mined where, or rely on `wallet recover`
- • The changes to the pmmr to maintain switch commits should be fairly small
- • For the output pmmr on a non-archival node,
-   instead of a block hash, we'll require a Merkle proof.
+ * Remove both get_output_by_commit and get_block_header_by_output_commit (NOT remove sumtrees/utxo :grinning:)
+ * The only commitment or output index is what the sumtrees offer. Any additional information needs to be provided to spend.
+ * (No new index needed to map commitment|block_hash -> pmmr pos. We can lookup the block with that hash)
+ * Only full (archival) nodes can surely know if a coinbase output is locked or not (1000 confirms)
+ * Wallet recovery still works.
+ * Miners must remember which output they mined where, or rely on `wallet recover`
+
+The changes to the pmmr to maintain switch commits should be fairly small
+
+For the output pmmr on a non-archival node, instead of a block hash, we'll require a Merkle proof.
 	 (The path has a list of hashes in the MMR from the output to the root.)
 	 This is going to be large. We can figure out more succinct encoding later.
 	 Output PMMR looks the exact same, but you don't have any older block data.
