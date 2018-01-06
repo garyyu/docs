@@ -39,17 +39,16 @@ sumtrees/utxo Summation, Merklish tree of all valid UTXOs
 @dmdeemer pasted https://pastebin.com/aCdznJW1 and there was a Lobby discussion with @tromp
 
 Q: Is it necessary for all nodes to store the set of tx kernels?
+
 A: They're needed for new full nodes to sync, so archival full nodes must store them.
 
 Q: Do we need to store all kernels, forever?
+
 A: ....yes.... they are necessary for a new client to validate the chain.
 
-JT: If the whole history is A->B with kernel kAB and B->C (same amount, i.e. 0 change) with kernel kBC then you cannot forget kAB
-even though there's only 1 UTXO. Only the sum of kAB and kBC proves 0-inflation.
-JT: B and C cannot sign for kAB+kBC, that would still need A.
-JT: Excess values combine blinding factors from different parties, and therefore need both parties to sign.
-JT: Excess values must relate inputs and outputs in order to prove 0 inflation.
-Specifically, they prove that sum outputs minus sum inputs is a commitment to 0.
+JT: If the whole history is A->B with kernel kAB and B->C (same amount, i.e. 0 change) with kernel kBC then you cannot forget kAB, even though there's only 1 UTXO. Only the sum of kAB and kBC proves 0-inflation. B and C cannot sign for kAB+kBC, that would still need A.
+
+JT: Excess values combine blinding factors from different parties, and therefore need both parties to sign. Excess values must relate inputs and outputs in order to prove 0 inflation. Specifically, they prove that sum outputs minus sum inputs is a commitment to 0.
 
 D: Ok, I need a concrete example...
 ````
