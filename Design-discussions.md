@@ -34,6 +34,30 @@ sumtrees/rangeproof  The PMMR is just a prunable tree. The summation isn't used.
 sumtrees/utxo Summation, Merklish tree of all valid UTXOs
 ````
 
+# Understanding kernels
+
+@dmdeemer pasted https://pastebin.com/aCdznJW1 and later discussed with @tromp
+
+D: Ok, I need a concrete example...
+````
+Alice has 1 Grin. She sends it to Bob
+
+Half-transaction:
+(b1*G + 1*H) + (e1*G) = ...
+
+Bob needs to know the amount, 1 Grin, and the sum 
+of the blinding values (b1+e1)  Alice can tell 
+him that, because she remembers b1 and e1.
+
+Bob then picks b2 and e2, such that b1+e1 = b2+e2,
+and completes the transaction:
+
+(b1*G + 1*H) + (e1*G) = (b2*G + 1*H) + (e2*G)
+````
+
+D: And now I see the problem... Alice just told bob exactly the opening information Bob will later need to spend his output. D'oh!
+
+JT: It's not safe for parties to tell each other blinding factors. See the mailing list discussion for how to transact properly. Specifically https://lists.launchpad.net/mimblewimble/msg00087.html and the later https://lists.launchpad.net/mimblewimble/msg00091.html
 
 # Grin dev discussion about #215 (the lock_height switch commit stuff)
 
