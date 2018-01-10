@@ -1,4 +1,3 @@
-# Jargon file and glossary
 
 `lock height`
   For coinbase coins (outputs), they must be locked for a while (grin 1000/60 = ~15hours?) or else chain are near impossible.
