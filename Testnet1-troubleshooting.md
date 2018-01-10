@@ -36,6 +36,10 @@ On Alpine Linux, grin build requires kernel headers. After `apk add linux-header
 Chech `rustc --version` and note that bitflags requires rust 1.21 or newer. Install via `rustup` and recommended you also remove any rust/cargo installed via your package manager.
 
 ## Build error: librocksdb-sys 5.7.1+ / rocksdb ^0.8.0 won't build
-You need more llvm and clang. On Fedora 24/25 `dnf install llvm-devel clang-devel`; on apt-get you'll need llvm-dev libclang-dev clang. On Amazon AWS https://stackoverflow.com/questions/44219158/how-to-install-clang-and-llvm-3-9-on-centos-7
+You need more llvm and clang.
+On Fedora 24/25 `dnf install llvm-devel clang-devel`.
+On apt-get you'll need llvm-dev libclang-dev clang.
+On Arch you need clang and clanlib (clanglib?)
+On Amazon AWS https://stackoverflow.com/questions/44219158/how-to-install-clang-and-llvm-3-9-on-centos-7
 More details in https://github.com/mimblewimble/grin/issues/584
 
