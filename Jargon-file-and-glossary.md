@@ -25,5 +25,11 @@
 `switch commitment`
       a hash of something, like the blinding pubkey
 
+`grins`, `milligrins`
+  used to denominate coins (chosen by popular vote on the mailing list)
+
+`kernel`
+  the core piece of a transaction, and one that must be kept also when transactions are merged
+
 `pre-image`
     something, like a blinding pubkey?
