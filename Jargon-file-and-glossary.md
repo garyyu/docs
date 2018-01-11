@@ -31,12 +31,14 @@
 
 ### Elliptic algebra
 
-`C = rG+vH` [(defined here)](https://download.wpsoftware.net/bitcoin/wizardry/mimblewimble.txt)
-  `C` is a Pedersen commitment (homomorphic commitment). `G` and `H` are fixed nothing-up-my-sleeve elliptic
-curve group generators. `v` is the amount. 
+`C`
+  is a Pedersen commitment (homomorphic commitment) [(defined here)](https://download.wpsoftware.net/bitcoin/wizardry/mimblewimble.txt). `C = rG+vH`
 
-`r`
-  r is a secret random blinding key
+`G` and `H` are fixed nothing-up-my-sleeve elliptic curve group generators.
+
+`v` is the amount. 
+
+`r` is a secret random blinding key
 
 `rJ`
   [switch commitment](https://people.mmci.uni-saarland.de/~truffing/papers/switch-commitments.pdf). Kept private. Derived from wallet private keys.
@@ -44,5 +46,7 @@ curve group generators. `v` is the amount.
 `kG`
   (Excess values?)
 
-`Bj`
-  ?
+`bJ`
+  b =?, J=Jacobian? ("compute b (by solving dlog) [...] and you know nothing about `x` Also look at Lemma 4.1 in 
+https://eprint.iacr.org/2017/604 or Lemma 1 in https://eprint.iacr.org/
+2013/606.pdf." /Tim Ruffing)
