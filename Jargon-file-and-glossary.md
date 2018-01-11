@@ -46,7 +46,8 @@
 `kG`
   (Excess values?)
 
-`bJ`
-  b =?, J=Jacobian? ("compute b (by solving dlog) [...] and you know nothing about `x` Also look at Lemma 4.1 in 
+`bJ` (to be verified)
+   is a public key on generator J, with b = blind, J=curve generator? ("compute b (by solving dlog) [...] and you know nothing about `x` Also look at Lemma 4.1 in 
 https://eprint.iacr.org/2017/604 or Lemma 1 in https://eprint.iacr.org/
 2013/606.pdf." /Tim Ruffing)
+
