@@ -40,5 +40,6 @@ You need more llvm and clang.
 On Fedora 24/25 `dnf install llvm-devel clang-devel`.
 On apt-get you'll need llvm-dev libclang-dev clang.
 On Arch you need clang and clanlib (clanglib?)
-On CentOS 7 https://stackoverflow.com/questions/44219158/how-to-install-clang-and-llvm-3-9-on-centos-7
-More details in https://github.com/mimblewimble/grin/issues/584
+On CentOS 7 [see this](https://stackoverflow.com/questions/44219158/how-to-install-clang-and-llvm-3-9-on-centos-7) and 
+[more details in #584](https://github.com/mimblewimble/grin/issues/584)
+On Alpine Linux (Docker etc) [see #549](https://github.com/mimblewimble/grin/issues/549)
