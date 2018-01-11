@@ -31,14 +31,18 @@
 
 ### Elliptic algebra
 
-`r`
-  a blind (like a pubkey?)
+`C = rG+vH` [(defined here)](https://download.wpsoftware.net/bitcoin/wizardry/mimblewimble.txt)
+  `C` is a Pedersen commitment (homomorphic commitment). `G` and `H` are fixed nothing-up-my-sleeve elliptic
+curve group generators. `v` is the amount. 
 
-`rG+vH`
-  a homomorphic commitment
+`r`
+  r is a secret random blinding key
 
 `rJ`
-  switch commitment
+  [switch commitment](https://people.mmci.uni-saarland.de/~truffing/papers/switch-commitments.pdf). Kept private. Derived from wallet private keys.
+
+`kG`
+  (Excess values?)
 
 `Bj`
-
+  ?
