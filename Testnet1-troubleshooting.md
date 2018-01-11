@@ -18,7 +18,7 @@ grin in case of trouble.
 
 # Build errors
 
-## Build error: Could not compile `tokio-retry`.
+## Build error: Could not compile `tokio-retry`
 You might want to remove any previous rust installations to avoid conflicts.
 Use `rustup` to [reinstall rust and cargo as described](build.md).
 
