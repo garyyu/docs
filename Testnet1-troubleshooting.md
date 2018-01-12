@@ -43,3 +43,26 @@ On Arch you need clang and clanlib (clanglib?)
 On CentOS 7 [see this](https://stackoverflow.com/questions/44219158/how-to-install-clang-and-llvm-3-9-on-centos-7) and 
 [more details in #584](https://github.com/mimblewimble/grin/issues/584)
 On Alpine Linux (Docker etc) [see #549](https://github.com/mimblewimble/grin/issues/549)
+
+
+
+# grin-doctor shell script
+````bash
+# ./grin-doctor.sh
+
+GRIN_API="localhost:13415"
+echo "API is $GRIN_API"
+
+echo "Asking API for chain status..."
+curl "http://$GRIN_API/v1/chain"
+
+echo "Asking grin for client status"
+grin client status
+
+echo "Asking API for connected peers"
+curl "http://$GRIN_API/v1/peers/connected"
+
+echo "Asking wallet for info"
+grin wallet info
+
+````
