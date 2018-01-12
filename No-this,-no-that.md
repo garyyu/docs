@@ -23,4 +23,5 @@ no scripts (scriptless scripts though)
 no governance
 no reason to hodl (we hope)
 no instamine
+no points linked together floating in space
 `````
