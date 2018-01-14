@@ -22,6 +22,14 @@ no addresses
 no scripts (scriptless scripts though)
 no governance
 no reason to hodl (we hope)
+no deflation (for the forseeable future)
+no limit on total supply (grows with 1 grin/second forever)
+no project-sanctioned scamming or attempts at price fixing
+no investment "advice"
+no stable price (even "pegged" coins aren't that stable. Or the USDJPY price chart)
 no instamine
 no points linked together floating in space
+no developer reward -- well [for sure, donations __are welcome__](http://grin-tech.org/funding.html)
+(almost) no developers? but we're getting there
+no periods
 `````
