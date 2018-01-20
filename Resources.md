@@ -1,4 +1,4 @@
-A list of ressources to learn more about Mimblewimble/Grin.
+A list of resources to learn more about Mimblewimble/Grin.
 # Mimblewimble/Grin
 ## Paper
 - [First publication by Tom Elvis Jedusor](https://scalingbitcoin.org/papers/mimblewimble.txt)
@@ -19,7 +19,7 @@ A list of ressources to learn more about Mimblewimble/Grin.
 - [Nicolas Dorier talks about Mimblewimble on Bitcoin Uncensored](https://www.youtube.com/watch?v=Kf_WM0LxLEs)
 - [Andrew Poelstra at 42 Meetup in Bitcoin Milano](https://www.youtube.com/watch?v=JbeeHECftWk&t=20m50s)
 
-# Related ressources
+# Related resources
 ## Paper
 - [Confidential Assets](https://blockstream.com/bitcoin17-final41.pdf)
 - [OWAS](https://download.wpsoftware.net/bitcoin/wizardry/horasyuanmouton-owas.pdf)
@@ -32,3 +32,4 @@ A list of ressources to learn more about Mimblewimble/Grin.
 
 # Other
 - [Coinjoin](https://bitcointalk.org/?topic=279249)
+- [Introduction to Elliptic Curve Cryptography](http://andrea.corbellini.name/2015/05/17/elliptic-curve-cryptography-a-gentle-introduction/)
