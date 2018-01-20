@@ -13,7 +13,7 @@ A list of resources to learn more about Mimblewimble/Grin.
 ## Conference
 - [Andrew Poelstra at Scaling Bitcoin 2016](https://www.youtube.com/watch?v=8BLWUUPfh2Q&t=1h29m20s) and [slides](https://scalingbitcoin.org/milan2016/presentations/D1%20-%204%20-%20Andrew%20Poelstra.pdf)
 - [Andrew Poelstra at SF Bitcoin](https://www.youtube.com/watch?v=aHTRlbCaUyM&t=133s)
-- [Andrew Poellstra on Mimblewimble and Scriptless Script at RealWorldCrypto](https://www.youtube.com/watch?v=ovCBT1gyk9c)
+- [Andrew Poellstra on Mimblewimble and Scriptless Script at RealWorldCrypto](https://www.youtube.com/watch?v=ovCBT1gyk9c) and [transcript](http://diyhpl.us/wiki/transcripts/realworldcrypto/2018/mimblewimble-and-scriptless-scripts/)
 
 ## Video
 - [Nicolas Dorier talks about Mimblewimble on Bitcoin Uncensored](https://www.youtube.com/watch?v=Kf_WM0LxLEs)
