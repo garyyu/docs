@@ -24,6 +24,11 @@ A list of ressources to learn more about Mimblewimble/Grin.
 - [Confidential Assets](https://blockstream.com/bitcoin17-final41.pdf)
 - [OWAS](https://download.wpsoftware.net/bitcoin/wizardry/horasyuanmouton-owas.pdf)
 - [Bulletproofs](https://eprint.iacr.org/2017/1066.pdf)
+- [Cuckoo Cycle](https://github.com/tromp/cuckoo/blob/master/doc/cuckoo.pdf)
+
+## Podcast
+
+- [Monero Monitor with John Tromp](https://moneromonitor.com/episodes/2017-09-26-Episode-014.html)
 
 # Other
 - [Coinjoin](https://bitcointalk.org/?topic=279249)
