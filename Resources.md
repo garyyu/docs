@@ -30,6 +30,6 @@ A list of resources to learn more about Mimblewimble/Grin.
 
 - [Monero Monitor with John Tromp](https://moneromonitor.com/episodes/2017-09-26-Episode-014.html)
 
-# Other
+## Other
 - [Coinjoin](https://bitcointalk.org/?topic=279249)
 - [Introduction to Elliptic Curve Cryptography](http://andrea.corbellini.name/2015/05/17/elliptic-curve-cryptography-a-gentle-introduction/)
