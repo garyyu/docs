@@ -32,7 +32,7 @@ Run `cargo update` to fix this
 ## Build error: Alpine Linux build error, something `rocksdb` and upon digging deeper; rocksdb/env/env_posix.cc:13:22: fatal error: linux/fs.h: No such file or directory
 On Alpine Linux, grin build requires kernel headers. After `apk add linux-headers` grin builds ok.
 
-## Build error: can't compile crate `bitflags``
+## Build error: can't compile crate `bitflags`
 Chech `rustc --version` and note that bitflags requires rust 1.21 or newer. Install via `rustup` and recommended you also remove any rust/cargo installed via your package manager.
 
 ## Build error: librocksdb-sys 5.7.1+ / rocksdb ^0.8.0 won't build
@@ -44,7 +44,8 @@ On CentOS 7 [see this](https://stackoverflow.com/questions/44219158/how-to-insta
 [more details in #584](https://github.com/mimblewimble/grin/issues/584)
 On Alpine Linux (Docker etc) [see #549](https://github.com/mimblewimble/grin/issues/549)
 
-
+## Build error: can't locate stdarg.h
+If librocksdb-sys fails to build, try symlinking stddef.h and stdarg.h from the gcc5 include directory. So probably from /usr/lib to /usr/include
 
 # grin-doctor shell script
 ````bash
