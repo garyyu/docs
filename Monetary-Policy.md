@@ -1,4 +1,4 @@
-Currently, *a new grin is emitted every second*, and it's likely to stay that way forever, meaning that the supply stays constant. Why? Consider the following points.
+Currently, *a new grin is emitted every second*, and it's likely to stay that way forever, meaning that the supply stays rate stays constant. Why? Consider the following points.
 
 ## It's very close to Bitcoin in the first decade
 
@@ -14,7 +14,7 @@ Every year that passes makes the overall dilution smaller. After 10 years, this 
 
 ## It's highly likely that at least 2% of coins get lost per year
 
-Multiple studies have shown that a considerable amount of coins get lost, burnt and generally disappear from circulation with no chance to get them back. The rate at which coins get lost has been conservatively estimated at 2%, but is likely slightly higher.
+Multiple studies have shown that a considerable amount of coins get lost, burnt and generally disappear from circulation with no chance to get them back. The rate at which coins get lost has been conservatively estimated at 2%, but is likely slightly higher. 
 
 ## Tail emission is required for long term stability
 
