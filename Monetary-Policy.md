@@ -26,4 +26,4 @@ Grin is privacy and scalability focused. Its qualities are best utilized as a me
 
 ## It will get forked into a "get rich quick" coin
 
-Fine. But the keyword in "get rich quick" is "quick". Moderate yearly variations in supply are fairly slow in comparison.
+Fine. But the keyword in "get rich quick" is _quick_. Moderate yearly variations in supply are fairly slow in comparison.
