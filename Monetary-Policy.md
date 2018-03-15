@@ -22,7 +22,7 @@ Miners need incentives to secure the chain beyond only fees.
 
 ## There are already better store of values or "get rich quick" coins
 
-Grin is privacy and scalability focused. Its qualities are best utilized as a medium of exchange than as a store of value.
+Grin is privacy and scalability focused. Its qualities are better utilized as a medium of exchange, than as a store of value.
 
 ## It will get forked into a "get rich quick" coin
 
