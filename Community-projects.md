@@ -2,6 +2,7 @@
 _(pls check them out and help keeping this updated)_
  * C# grin https://github.com/dandcg/grin-dotnet
  * grin go implementation https://github.com/dblokhin/gringo
+ * [grinMW](https://twitter.com/grinmw) News tracking: Twitter bot that scrapes headlines, mailing list, and reddit posts related to MW.
  * [Installation Script](https://github.com/BloddyBaron/Vault712) by BloddyBaron
  * Pool software: Clvtor, guzzijones, not420guilty_twitter
 
