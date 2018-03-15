@@ -1,4 +1,3 @@
-# FAQ
 
 - Q: What is grin?  A: An implementation of [MimbleWimble](https://download.wpsoftware.net/bitcoin/wizardry/mimblewimble.txt)
 - Q: Similar to Bitcoin?  A: Both are outputs-based, PoW. See also [Grin for Bitcoiners](https://github.com/mimblewimble/grin/blob/master/doc/grin4bitcoiners.md)
