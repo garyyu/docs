@@ -1,4 +1,3 @@
-How to use grin
 
 ## First time preparations
 
