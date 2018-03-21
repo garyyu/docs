@@ -55,4 +55,4 @@ https://eprint.iacr.org/2017/604 or Lemma 1 in https://eprint.iacr.org/
 2013/606.pdf." /Tim Ruffing)
 
 `r + hash(vH + rG || v || r)`
-   [Discussed here](https://gitter.im/grin_community/dev?at=5ab2e2d1fa066c532558de57) as a possible solution both to QC and wallet restore. Too good?
+   [Discussed here](https://gitter.im/grin_community/dev?at=5ab2e2d1fa066c532558de57) as a possible solution both to QC and wallet restore. Too good? This idea come out as a reaction after we tried to cut out [grins Switch Commitments](https://lists.launchpad.net/mimblewimble/msg00373.html).
