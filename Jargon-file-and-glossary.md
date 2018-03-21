@@ -27,7 +27,10 @@
   the core piece of a transaction, and one that must be kept also when transactions are merged
 
 `pre-image`
-    something, like a blinding pubkey?
+  A is a preimage of B if B = hash(A)
+
+`sumtree`
+   used before - replaced with something similar but witout including any sums
 
 ### Elliptic algebra
 
@@ -51,3 +54,5 @@
 https://eprint.iacr.org/2017/604 or Lemma 1 in https://eprint.iacr.org/
 2013/606.pdf." /Tim Ruffing)
 
+`r + hash(vH + rG || v || r)`
+   [Discussed here](https://gitter.im/grin_community/dev?at=5ab2e2d1fa066c532558de57) as a possible solution both to QC and wallet restore. Too good?
