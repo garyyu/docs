@@ -19,7 +19,7 @@ sudo swapon /swapfile
 free -h # verify; you should now have 2GB swap; and you can go ahead: cargo build
 ````
  - [git](https://git-scm.com/) with or without graphical app on top
- - Packages rocksdb, clang (required by rocksdb), libncurses (packages `libncurses5` and `libncurses5w`) and some more.
+ - Packages rocksdb, clang (required by rocksdb), libncurses (packages `libncurses5` and `libncursesw5`) and some more.
 
 # Build steps
 
