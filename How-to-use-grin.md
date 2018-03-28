@@ -45,6 +45,9 @@ from another use, you will need the edit `grin.toml` and change the
 [wallet]
 # Whether the wallet should be open to the outside
 external = true
+
+# Host IP for wallet listener
+api_listen_interface = "0.0.0.0"
 ```
 
 As a user, you can try to:
