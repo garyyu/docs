@@ -39,14 +39,11 @@ grin wallet help
 
 By default, the Grin wallet will only listen locally, to receive grins
 from another use, you will need the edit `grin.toml` and change the
-`external` property as below:
+wallet listening address as below:
 
 ```
 [wallet]
-# Whether the wallet should be open to the outside
-external = true
-
-# Host IP for wallet listener
+# Host IP for wallet listener, change to "0.0.0.0" to receive grins
 api_listen_interface = "0.0.0.0"
 ```
 
