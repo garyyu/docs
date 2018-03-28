@@ -5,7 +5,7 @@ To build the grin application from source, you need:
    - Using Windows? Then run on Linux in a VM or [help add windows compatibility](https://github.com/mimblewimble/docs/wiki/Hacking-and-contributing)
  - `cmake --version` # 3.2 or newer (only needed for building [mining plugins](https://github.com/mimblewimble/cuckoo-miner))
    - Debian stable? You might have to compile cmake from source.
- - `rustc --version` # 1.21 or newer. Please use latest `stable` version.
+ - `rustc --version` # 1.24 or newer. Please use latest `stable` version.
    - NOTE: Install via [Rustup](https://www.rustup.rs/) as `curl https://sh.rustup.rs -sSf | sh; source $HOME/.cargo/env` and **avoid your package manager's rust** for now, trust us.
  - 2 GB RAM to compile
    - Either [compile locally](https://github.com/mimblewimble/docs/wiki/More-on-building) and deploy on a memory-limited computer.
@@ -23,16 +23,14 @@ free -h # verify; you should now have 2GB swap; and you can go ahead: cargo buil
 
 # Build steps
 
-## For Testnet1
+## For Testnet2
 
 Run this in a command line
 
 ```sh
-git clone https://github.com/mimblewimble/grin.git -b milestone/testnet1
+git clone https://github.com/mimblewimble/grin.git
 cd grin
 ```
-
-Ensure you're on the milestone/testnet1 branch. NOTE: Testnet1 will soon to be archived!
 
 ## Build steps
  1. Run `cargo build`
