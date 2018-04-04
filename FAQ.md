@@ -9,7 +9,7 @@
 - Q: Fees? Monetary policy? A: https://github.com/mimblewimble/grin/wiki/fees-mining and the newer https://github.com/mimblewimble/docs/wiki/Monetary-Policy
 - Q: Roadmap? A: Moving fast, changing things. Maybe look at [issues and milestones](https://github.com/mimblewimble/grin/milestones)
 - Q: Proof of payment? A: Maybe.
-- Q: Microtransactions? A: On Testnet1, fees are 0.8% on a transaction of 1.0 coins.
+- Q: Microtransactions? A: On Testnet2, fees are 0.8% on a transaction of 1.0 coins.
 - Q: Could grin ever support or make use of:
   ☑ Probably, or ☐ Probably not
   A: ☑ Contracts, ☑ [Pruning](pruning.md), ☐ Identity, like bitauth, ☑ Something something SNARK/STARK/NIZKPs, [☑ Cross chain atomic swaps, ☑ multisig, ☑ time locks, ☑ lightning network](grin4bitcoiners.md#scripting), ☑ Payment channels, ☑ hidden nodes / onion routing, ☑ [Scripting - clean & native w/ tiny limits](https://lists.launchpad.net/mimblewimble/msg00029.html), ☑ Dandelion privacy mixed with tx cut through
