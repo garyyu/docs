@@ -1,3 +1,5 @@
+See also https://github.com/mimblewimble/grin/blob/master/doc/build.md
+
 # Requirements
 To build the grin application from source, you need:
 
