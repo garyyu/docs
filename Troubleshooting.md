@@ -52,6 +52,9 @@ On Alpine Linux (Docker etc) [see #549](https://github.com/mimblewimble/grin/iss
 ## Build error: can't locate stdarg.h
 If librocksdb-sys fails to build, try symlinking stddef.h and stdarg.h from the gcc5 include directory. So probably from /usr/lib to /usr/include
 
+## Build error: ` /usr/bin/ld: cannot find -lz`
+On Ubuntu install the zlib development headers: `apt install zlib1g-dev`.
+
 # grin-doctor shell script
 ````bash
 # ./grin-doctor.sh
