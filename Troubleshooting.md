@@ -37,11 +37,16 @@ Chech `rustc --version` and note that bitflags requires rust 1.21 or newer. Inst
 
 ## Build error: librocksdb-sys 5.7.1+ / rocksdb ^0.8.0 won't build
 You need more llvm and clang.
-On Fedora 24/25 `dnf install llvm-devel clang-devel`.
-On apt-get you'll need llvm-dev libclang-dev clang.
-On Arch you need clang and clanlib (clanglib?)
+
+On Fedora 24/25 `llvm-devel` and `clang-devel`.
+
+On Ubuntu `llvm-dev`, `libclang-dev` and `clang`.
+
+On Arch `clang` and `clanlib` (`clanglib`?).
+
 On CentOS 7 [see this](https://stackoverflow.com/questions/44219158/how-to-install-clang-and-llvm-3-9-on-centos-7) and 
 [more details in #584](https://github.com/mimblewimble/grin/issues/584)
+
 On Alpine Linux (Docker etc) [see #549](https://github.com/mimblewimble/grin/issues/549)
 
 ## Build error: can't locate stdarg.h
