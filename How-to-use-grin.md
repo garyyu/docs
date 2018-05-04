@@ -37,9 +37,7 @@ grin help
 grin wallet help
 ```
 
-By default, the Grin wallet will only listen locally, to receive grins
-from another use, you will need the edit `grin.toml` and change the
-wallet listening address as below:
+By default, the Grin wallet will only listen locally, to receive grins from another user, you will need the edit `grin.toml` and change the wallet listening address as below:
 
 ```
 [wallet]
