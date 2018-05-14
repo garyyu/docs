@@ -128,6 +128,6 @@ With all of your servers happily running and your terminals scrolling away, let'
 In yet another terminal in node 1's directory, create a new partial transaction spending 20000 coins and send them on to node 3's wallet listener. We'll also specify that we'll
 use node 2's API listener to validate our transaction inputs before sending:
 
-    node1$ grin wallet -p "password" -a "http://127.0.0.1:20001" send 20000 -d "http://127.0.0.1:35000"
+    node1$ grin wallet -p "password" -a "http://127.0.0.1:20001" send -d "http://127.0.0.1:35000" 20000
 
 The grin.toml configuration file has further information about the various options available.
