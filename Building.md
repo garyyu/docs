@@ -35,7 +35,7 @@ cd grin
 ```
 
 ## Build steps
- 1. Run `cargo build`
+ 1. Run `cargo build --release` (recommended) or `cargo build` (for debug mode)
  2. Seeing red messages and errors? See [troubleshooting](https://github.com/mimblewimble/docs/wiki/Troubleshooting)
  3. Build may seem to get stuck, but it probably just takes time. In the end you get a `target/debug/grin` binary that you use when you run grin.
 
