@@ -62,6 +62,10 @@ That brings attention to them, so we can make them more understandable for
 users, and improve the page about
 [troubleshooting](https://github.com/mimblewimble/docs/wiki/Troubleshooting).
 
+### Sending/receiving grins
+1. Verify that port 13415 is open. You may need to set up port forwarding on your network router. 
+2. When transacting, both the sender and recipient should be running the latest version of the wallet code to ensure compatibility.
+
 ## Mining
 1. Make sure you're synched up to the tip of the chain (Testnet1 - later on this will be more automatic...) by running `grin server run` and wait 1-2 hours or so until you reach the tip of chain and see the debug message "Disabling sync"
 2. Look in the `target/debug/plugins` you find any mining plugings that have been built. Current fastest plugin is called lean or mean or so, and runs best on modern (2015+) Intel CPUs. Update grin.toml to use your preferred mining plugin, maybe by commenting _compat plugin and uncommenting the other faster plugin.
