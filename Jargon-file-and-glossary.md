@@ -24,7 +24,8 @@
   used to denominate coins (chosen by popular vote on the mailing list)
 
 `kernel`
-  the core piece of a transaction, and one that must be kept also when transactions are merged
+  the core piece of a transaction, and one that must be kept also when transactions are merged.
+  A kernel consists of the sum of the commitments of that tx, rangeproofs and a tx fee.
 
 `pre-image`
   A is a preimage of B if B = hash(A)
