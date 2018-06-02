@@ -1,4 +1,4 @@
-Currently, *a new grin is emitted every second*, and it's likely to stay that way forever, meaning that the supply stays rate stays constant. Why? Consider the following points.
+Currently, *a new grin is emitted every second*, and it's likely to stay that way forever, meaning that the supply rate stays constant. Why? Consider the following points.
 
 ## It's very close to Bitcoin in the first decade
 
