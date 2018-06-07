@@ -4,7 +4,7 @@
     - [[MimbleWimble Origin|MimbleWimble-Origin]]
     - [Precise Version](https://download.wpsoftware.net/bitcoin/wizardry/mimblewimble.pdf)
     - [[Introduction|Introduction]] 
-- [Releases]()
+- [Releases](https://github.com/mimblewimble/grin/releases)
 - [[How to use grin|How-to-use-grin]]
 - [[Hacking and contributing|Hacking-and-contributing]]
 - [[Test Network|Test-Network]]
