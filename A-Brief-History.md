@@ -4,7 +4,7 @@ Tom's white paper "Mimblewimble" (a tongue-tying curse used in "[The Deathly Hal
 
 At the **end of 2016**, **Ignotus Peverell** (name also came from "Harry Potter", the original owner of the invisibility cloak, if you know the Harry Potter characters) started a Github project called **Grin**, and began turning the MimbleWimble paper into something real.
 
-In **January 2017**, **[Andrew Poelstra](https://www.linkedin.com/in/andrew-poelstra-958a75106)**, a mathematician at Blockstream, presented on this work at Stanford University's Blockchain Protocol Analysis and Security Engineering 2017 conference. And he wrote a 2nd [MilbleWimble paper](https://download.wpsoftware.net/bitcoin/wizardry/mimblewimble.pdf), made precise Tom's original idea, and added further scaling improvements on it.
+In **January 2017**, **[Andrew Poelstra](https://www.linkedin.com/in/andrew-poelstra-958a75106)**, a mathematician at Blockstream, presented on this work at Stanford University's Blockchain Protocol Analysis and Security Engineering 2017 conference. And he wrote the 2nd [MilbleWimble](https://download.wpsoftware.net/bitcoin/wizardry/mimblewimble.pdf) paper, made precise Tom's original idea, and added further scaling improvements on it.
 
 And in **March 2017**, Ignotus Peverell posted a technical [[introduction|Introduction]] to MimbleWimble and Grin on Github. 
 
