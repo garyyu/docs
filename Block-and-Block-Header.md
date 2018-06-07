@@ -14,7 +14,7 @@ Transaction data is permanently recorded in files called blocks. They can be tho
 | list of [Outputs](https://github.com/mimblewimble/docs/wiki/transaction#output) | outputs | `716*output_size` bytes |
 | list of [TxKernel](https://github.com/mimblewimble/docs/wiki/transaction#txkernel) | transaction kernels | `114*TxKernel_size` bytes |
 
-As you see, block structure is very simililiar to the [transaction](https://github.com/mimblewimble/docs/wiki/transaction#transaction) structure, only difference is the first field: block's 1st field is 362bytes length block header, but transaction header's 1st field is a 32bytes offset (blinding factor).
+As you see, block structure is very simililiar to the [transaction](https://github.com/mimblewimble/docs/wiki/transaction#transaction) structure, only difference is the first field: block's 1st field is 362bytes length `block header`, but transaction's 1st field is a 32bytes `offset` (blinding factor).
 
 ### Header
 General format of an **Block Header** in a MilbleWimble/Grin block:
