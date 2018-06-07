@@ -1,7 +1,9 @@
 Grin Code of Conduct
 > Posted on **2017-09-29 04:12:29**    Original author: **Ignotus Peverell**
 
-Contact: [grinmods@googlegroups.com](mailto:grinmods@googlegroups.com)
+Contact: 
+* [Gitter](https://gitter.im/grin_community/Lobby).
+* [grinmods@googlegroups.com](mailto:grinmods@googlegroups.com)
 
 We are committed to providing a friendly, safe and welcoming environment for all, regardless of level of experience, gender, gender identity and expression, sexual orientation, disability, personal appearance, body size, race, ethnicity, age, religion, nationality, or other similar characteristic.
 
