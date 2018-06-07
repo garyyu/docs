@@ -16,7 +16,7 @@
 - [[Code Struture|Code-Structure]]
 - [[Contributing Guide|Contributing-Guide]]
 - [[Design discussions|Design-discussions]]
-- [[Testnet1 build and run automation|Testnet1-build-and-run-automation]]
+- [[Build & run automation|Testnet1---build-and-run-automation]]
 - [[Troubleshooting|Troubleshooting]]
 - [Roadmap]()
 
