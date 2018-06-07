@@ -1,7 +1,7 @@
 # MimbleWimble 和 Grin 简介
 > Posted on **2018-05-29 10:40:47**    Original translator: **Gary Yu**
 
-*阅读其它语言版本: [[English|Introduction]], [[简体中文|intro.zh-cn]].*
+*阅读其它语言版本: [[English|Introduction]], [[简体中文|%5BChinese-Simplified%5D-Grin-介绍]].*
 
 MimbleWimble是一个区块链格式和协议，依托于健壮的加密原语，提供非常好的可扩展性、隐私和可替代性。它解决了当前几乎所有实现的区块链（与现实需求之间）差距。
 
