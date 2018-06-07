@@ -13,7 +13,7 @@
 **R&D**
 
 - [[Building|Building]]
-- [[Code Struture|Code-Structure]]
+- [[Code Structure|Code-Structure]]
 - [[Contributing Guide|Contributing-Guide]]
 - [[Design discussions|Design-discussions]]
 - [[Build & run automation|Testnet1---build-and-run-automation]]
