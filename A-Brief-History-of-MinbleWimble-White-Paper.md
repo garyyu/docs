@@ -8,4 +8,4 @@ In **January 2017**, **[Andrew Poelstra](https://www.linkedin.com/in/andrew-poel
 
 And in **March 2017**, Ignotus Peverell posted a technical [[introduction|Introduction]] to MimbleWimble and Grin on Github. 
 
-That's the interesting story of MimbleWimble/Grin origin.
+That's the interesting story of MimbleWimble/Grin white paper. So, totally three papers integrate the whole one.
