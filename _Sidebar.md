@@ -1,8 +1,8 @@
 **Basics**
 - [[Home]]
-- [[Whitepaper|A-Brief-History]]
+- [[White Paper|A-Brief-History-of-MinbleWimble-White-Paper]]
     - [[MimbleWimble Origin|MimbleWimble-Origin]]
-    - [Whitepaper](https://download.wpsoftware.net/bitcoin/wizardry/mimblewimble.pdf)
+    - [Precise Version](https://download.wpsoftware.net/bitcoin/wizardry/mimblewimble.pdf)
     - [[Introduction|Introduction]] 
 - [Releases]()
 - [[How to use grin|How-to-use-grin]]
