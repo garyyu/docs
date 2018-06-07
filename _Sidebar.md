@@ -31,14 +31,15 @@
 
 **Grin Technologies**
 - [[Merkle Mountain Range|mmr]]
-- [[Grin Transaction|transaction]]
-- [[Grin Block|blocks_and_headers]]
+- [[Transaction|transaction]]
+- [[Block & Block Header]]
 - [[Range Proof|rangeproofs]]
 - [[Output Lock Heights|coinbase_maturity]]
 - [[Atomic Swaps|contractideas]]
 - [[Smart Contract|contracts]]
 - [[Chain Sync|chain_sync]]
 - [[Block Fast Sync|fast-sync]]
+- [[More About Sync|blocks_and_headers]]
 - [[State and Storage|state]]
 - [[Pruning Chain Data|pruning]]
 - [[Wallet|wallet]]
