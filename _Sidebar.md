@@ -39,7 +39,7 @@
 - [[Smart Contract|contracts]]
 - [[Chain Sync|chain_sync]]
 - [[Block Fast Sync|fast-sync]]
-- [[More About Sync|blocks_and_headers]]
+- [[More about Sync|blocks_and_headers]]
 - [[State and Storage|state]]
 - [[Pruning Chain Data|pruning]]
 - [[Wallet|wallet]]
