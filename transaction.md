@@ -67,6 +67,7 @@ General format of a **TxKernel** in a MilbleWimble/Grin transaction:
 | lock_height   | trsaction lock block height   | 8 bytes  |
 | excess  | pederson committment  | 33 bytes  |
 | excess_sig   | committment signature  | 64 bytes  |
+|   |   | Total: 114 bytes |
 
 ## Example
 Here is a **Principle example** of a MimbleWimle/Grin transaction with 1 input, 2 output and 1 TxKernel only. This transaction is included in Testnet2 block [97987](https://grinscan.net/block/97987).
