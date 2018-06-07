@@ -32,7 +32,7 @@
 **Grin Technologies**
 - [[Merkle Mountain Range|mmr]]
 - [[Transaction|transaction]]
-- [[Block & Block Header]]
+- [[Block and Block Header]]
 - [[Range Proof|rangeproofs]]
 - [[Output Lock Heights|coinbase_maturity]]
 - [[Atomic Swaps|contractideas]]
