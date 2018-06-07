@@ -14,7 +14,7 @@ Transaction data is permanently recorded in files called blocks. They can be tho
 | list of [Outputs](https://github.com/mimblewimble/docs/wiki/transaction#output) | outputs | `716*output_size` bytes |
 | list of [TxKernel](https://github.com/mimblewimble/docs/wiki/transaction#txkernel) | transaction kernels | `114*TxKernel_size` bytes |
 
-As you see, block structure is very simililiar to the [transaction](https://github.com/mimblewimble/docs/wiki/transaction#transaction) structure, only difference is the first field: block's 1st field is 362bytes length block header, but transaction header's 1st field is a 32bytes offset (blinding factor).
+As you see, block structure is very simililiar to the [transaction](https://github.com/mimblewimble/docs/wiki/transaction#transaction) structure, only difference is the first field: block's 1st field is 362bytes length `block header`, but transaction's 1st field is a 32bytes `offset` (blinding factor).
 
 ### Header
 General format of an **Block Header** in a MilbleWimble/Grin block:
@@ -59,7 +59,6 @@ Here is a **Principle example** of a MimbleWimle/Grin block. This block is inclu
   "outputs": [
     {
       "output_type": "Coinbase",
-      "commit": "09bb9acf592a787efc4c14105b646ea0543490aa1fde421c2aeaa135029a32c643",
       "commit": "<b><a href="http://127.0.0.1:13413/v1/chain/outputs/byheight?start_height=97987&end_height=97987&id=09bb9acf592a787efc4c14105b646ea0543490aa1fde421c2aeaa135029a32c643">09bb9acf592a787efc4c14105b646ea0543490aa1fde421c2aeaa135029a32c643</a></b>",
       "range_proof_len": "00000000000002a2",
       "range_proof": "318599a8f2de8c37f560d50656b6c1252c08fa221174f8b7ff7ec6c8c490d76a1e840169c8c1e3691e7ebbddaa0287592aa3cc6b5d3e512a5d5ebe242ac3fc1d

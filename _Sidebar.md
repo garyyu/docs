@@ -1,10 +1,10 @@
 **Basics**
 - [[Home]]
-- [[A Brief History]]
-- [[MimbleWimble Origin|MimbleWimble-Origin]]
-- [Whitepaper](https://download.wpsoftware.net/bitcoin/wizardry/mimblewimble.pdf)
-- [[Introduction|Introduction]] 
-- [Releases]()
+- [[White Paper|A-Brief-History-of-MinbleWimble-White-Paper]]
+    - [[MimbleWimble Origin|MimbleWimble-Origin]]
+    - [Precise Version](https://download.wpsoftware.net/bitcoin/wizardry/mimblewimble.pdf)
+    - [[Introduction|Introduction]] 
+- [Releases](https://github.com/mimblewimble/grin/releases)
 - [[How to use grin|How-to-use-grin]]
 - [[Hacking and contributing|Hacking-and-contributing]]
 - [[Test Network|Test-Network]]
